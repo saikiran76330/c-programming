@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int batch[n][m];
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+scanf("%d",batch[i][j]);
+}
+printf("\n");
+}
+}
