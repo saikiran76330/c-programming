@@ -1,0 +1,17 @@
+#include<stdio.h>
+int n,m[15],i;
+int main()
+{
+    printf("how many students in the class:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter the marks of the students:");
+        scanf("%d",&m[i]);
+    }
+    printf("the marks of the students are\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\n",m[i]);
+    }
+}
