@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+int batch[100][100],n,m,i,j,ri,ci,c;
+printf("enter no of rows:");
+scanf("%d",&n);
+printf("enter no of columns:");
+scanf("%d",&m);
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+ printf("enter the values of an array");
+scanf("%d",&batch[i][j]);
+}
+}
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+printf("%d\t",batch[i][j]);
+}
+printf("\n");
+}
+printf("enter row no where to correct:");
+scanf("%d",&ri);
+printf("enter column no where to correct:");
+scanf("%d",&ci);
+printf("enter the correct value:");
+scanf("%d",&c);
+for(i=0;i<n;i++)
+{
+for(j=0;j<m;j++)
+{
+printf("%d\t",batch[i][j]);
+}
+printf("\n");
+}
+
