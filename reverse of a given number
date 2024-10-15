@@ -11,5 +11,5 @@ int main()
         n=n/10;
         temp=temp*10+rev;
     }
-    printf("palindrome of given number %d is %d",a,temp);
+    printf("reverse of given number %d is %d",a,temp);
 }
