@@ -1,0 +1,33 @@
+#include<stdio.h>
+int n,i,flag=1;
+char s,a[100];
+void main()
+{
+    printf("how many characters:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        
+        for(i=0;i<n;i++)
+        {    printf("enter the character:");
+            scanf("%s",&a[i]);
+        }
+    }
+    printf("which character need to check:");
+    scanf("%s",&s);
+    for(i=0;i<n;i++)
+    {
+    if(a[i]==s)
+    {
+       flag=0;
+    }
+    }
+    if(flag==0)
+    {
+        printf("present");
+    }
+    else
+    {
+        printf("not present");
+    }
+    }
