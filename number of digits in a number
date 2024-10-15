@@ -10,5 +10,5 @@ while(n>0)
 n=n/10;
 d+=1;
 }
-printf("the no of digites in given number %d is %d",n,d);
+printf("the no of digites in given number %d is %d",tem,d);
 }
