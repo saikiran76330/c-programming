@@ -1,0 +1,17 @@
+#include<stdio.h>
+int n,i,a[100];
+int main()
+{
+    printf("enter the total no.of students:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter the student marks:");
+        scanf("%d",&a[i]);
+    }
+    for(i=1;i<n;i++)
+    {
+    a[0]=a[0]<a[i]?a[0]:a[i];
+    }
+    printf("minimum mark is:%d",a[0]); 
+}
