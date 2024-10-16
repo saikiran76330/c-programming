@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char str1[50],i,rev[50];
+    printf("entar a string:");
+    fgets(str1,50,stdin);
+    for(i=strlen(str1)-1;i>=0;i--)
+    {
+        rev[strlen(str1)-i-1]=str1[i];
+    }
+    printf("reversed string is %s ",rev);
+}
