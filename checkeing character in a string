@@ -12,12 +12,13 @@ void main()
     {
         if(l==str[i])
         {
-          flag+=1;
+          flag=1;
+          break;
             
         }
        
     }
-    if(flag>0)
+    if(flag==0)
     {
         printf("Yes");
     }
