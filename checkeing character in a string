@@ -3,21 +3,21 @@
 void main()
 {
     char str[50],l;
-    int i,flag=0;
+    int i,a,b,flag=0;
     printf("Enter your name :");
     fgets(str,50,stdin);
     printf("Enter charcter to search:");
-    scanf("%d",&l);
+    scanf("%c",&l);
     for(i=0;i<strlen(str);i++)
     {
         if(l==str[i])
         {
-            flag=1;
-            break;
+          flag+=1;
+            
         }
-        
+       
     }
-    if(flag==1)
+    if(flag>0)
     {
         printf("Yes");
     }
