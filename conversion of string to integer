@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char s[20];
+    int i,res=0;
+    printf("Enter a string:");
+    scanf("%s",s);
+    for(i=0;i<strlen(s);i++)
+    {
+        res=res*10+(s[i]-'0');
+
+    }
+    printf("converted value is %d",res);
+}
