@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int digits(int);
+int digits(int a)
+{
+    int res=0;
+    while(a>0)
+    {
+        res=res+a%10;
+        a=a/10;
+        
+    }
+    return res;
+}
+void main()
+{
+    int arr[10]={12,22,33,44,55,66,77,88,99,100},sum=0;
+    for(int i=0;i<10;i++)
+    {
+        sum=sum+digits(arr[i]);
+    }
+    printf("the total sum is:%d",sum);
+}
