@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+FILE *fptr;
+fptr=fopen("ecet.txt","a");
+fputs("best of luck",fptr);
+fclose(fptr);
+return 0;
+}
