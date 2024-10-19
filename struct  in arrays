@@ -33,7 +33,7 @@ void main()
         maxave=s[i].average;
     }
     }
-    printf("the topper name:%s",s[maxin]);
+    printf("the topper name:%s",s[maxin].name);
     printf("the average marks of the topper is %f",maxave);
     
     
